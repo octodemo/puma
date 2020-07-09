@@ -1,6 +1,5 @@
 AllCops:
   DisabledByDefault: true
-  TargetRubyVersion: 2.2
   DisplayCopNames: true
   StyleGuideCopsOnly: false
   Exclude:
@@ -26,10 +25,10 @@ Layout/SpaceBeforeFirstArg:
 Layout/SpaceInsideParens:
   Enabled: true
 
-Layout/Tab:
+Layout/IndentationStyle:
   Enabled: true
 
-Layout/TrailingBlankLines:
+Layout/TrailingEmptyLines:
   Enabled: true
 
 Layout/TrailingWhitespace:
@@ -51,21 +50,6 @@ Style/MethodDefParentheses:
   Enabled: true
 
 Style/TrailingCommaInArguments:
-  Enabled: true
-
-Performance:
-  Enabled: true
-
-Metrics/ParameterLists:
-  Max: 7
-
-Performance/RedundantMatch:
-  Enabled: true
-
-Performance/RedundantBlockCall:
-  Enabled: true
-
-Performance/StringReplacement:
   Enabled: true
 
 Layout/AccessModifierIndentation:
